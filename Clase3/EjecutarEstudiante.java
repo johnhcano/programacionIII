@@ -20,6 +20,7 @@ public class EjecutarEstudiante{
 
         System.out.println(Arrays.toString(e));
         
-        
+        //Actividad independiente
+        //implementar el metodo matricular cursos para que cada estudiante pueda realizar dicha operación.
     }
 }
