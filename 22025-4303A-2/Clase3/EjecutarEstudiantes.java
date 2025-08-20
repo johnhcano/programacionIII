@@ -28,6 +28,9 @@ public class EjecutarEstudiantes {
         String f = "Ingeniería";
         System.out.println("# de estudiantes: " + objEst1.contarEstudiantes(est, f) + " : " + f);
 
+        //Ejecución del método mostrarNombres
+        objEst1.mostrarNombres(est);
+
 
     }
 }

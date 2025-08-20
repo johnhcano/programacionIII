@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 public class Estudiantes {
     
     private int id;
@@ -10,6 +12,10 @@ public class Estudiantes {
         this.facultad = facultad;
     }
 
+    public String getNombre(){
+        return nombre;
+    }
+    
     public String getFacultad(){
         return facultad;
     }
@@ -30,5 +36,12 @@ public class Estudiantes {
         }
         
         return contador;
+    }
+
+    //Método para mostrar todos los nombres de los estudiantes
+    public void mostrarNombres(Estudiantes[] e){
+        for (int i = 0; i < e.length; i++) {
+            System.out.println(e[i].getNombre());    
+        }
     }
 }
