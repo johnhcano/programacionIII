@@ -24,5 +24,10 @@ public class EjecutarEstudiantes {
         //Forma2 --> Imprimir el arreglo de objetos
         System.out.println(Arrays.toString(est));
 
+        //Ejecución del método contarEstudiantes
+        String f = "Ingeniería";
+        System.out.println("# de estudiantes: " + objEst1.contarEstudiantes(est, f) + " : " + f);
+
+
     }
 }
