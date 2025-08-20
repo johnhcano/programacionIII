@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 public class EjecutarEstudiantes {
     public static void main(String[] args) {
     
@@ -18,10 +20,9 @@ public class EjecutarEstudiantes {
         for(int i = 0; i < est.length; i++){
             System.out.println(est[i]);
         }
-        
-        //Forma2 --> Imprimir el arreglo de objetos
 
-        //Forma3 --> Imprimir el arreglo de objetos
+        //Forma2 --> Imprimir el arreglo de objetos
+        System.out.println(Arrays.toString(est));
 
     }
 }
