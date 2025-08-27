@@ -39,6 +39,12 @@ public class Libro {
         return "Libro [id=" + id + ", nombre=" + nombre + ", precio=" + precio + "]";
     }
 
-    
+    public double calcularPrecios(Libro[] libros){
+        double total = 0.0;
+        for (int i = 0; i < libros.length; i++) {
+            total += libros[i].getPrecio();
+        }
+        return total;
+    }
     
 }
