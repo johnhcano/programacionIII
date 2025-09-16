@@ -24,5 +24,12 @@ public class PilaS441 {
 
         //Imprimir la pila
         System.out.println(pila);
+
+        //Buscar y mostrar la posición del elemento dentro de la pila
+        System.out.println(pila.search(10));
+        System.out.println(pila.search(9));
+        System.out.println(pila.search(4));
+        System.out.println(pila.search(8));
+        System.out.println(pila.search(50));
     }
 }
