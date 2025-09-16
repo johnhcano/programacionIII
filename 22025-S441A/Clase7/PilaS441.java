@@ -6,6 +6,9 @@ public class PilaS441 {
         //Creación de una pila de números enteros
         Stack<Integer> pila = new Stack<>();
 
+        //Verificar si la pila está vacía
+        System.out.println(pila.empty()); //true
+
         //Insertar elementos en la pila
         pila.push(8);
         pila.push(4);
@@ -31,5 +34,9 @@ public class PilaS441 {
         System.out.println(pila.search(4));
         System.out.println(pila.search(8));
         System.out.println(pila.search(50));
+
+        //Verificar si la pila está vacía
+        System.out.println(pila.empty()); //false
+
     }
 }
