@@ -38,5 +38,12 @@ public class PilaS441 {
         //Verificar si la pila está vacía
         System.out.println(pila.empty()); //false
 
+        //llamar el método para validar los paréntesis
+        OperacionesPila objOp = new OperacionesPila();
+
+        String[] signos = {"(","(",")",")"};
+
+        System.out.println(objOp.validarParentesis(signos));
+
     }
 }
