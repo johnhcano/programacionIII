@@ -5,8 +5,7 @@ public class OperacionesPila {
     Stack<String> pilaSignos;
 
     public boolean validarParentesis(String[] s) {
-        boolean flag = false;
-
+        
         pilaSignos = new Stack<>();
 
         //Almacenar en la pila el arreglo de signos
@@ -26,8 +25,6 @@ public class OperacionesPila {
             pilaSignos.pop();
         }
 
-        flag = (cont1 == cont2 ? true : false);
-
-        return flag;
+        return cont1 == cont2 ? true : false;
     }
 }
