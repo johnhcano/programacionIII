@@ -27,4 +27,10 @@ public class OperacionesPila {
 
         return cont1 == cont2 ? true : false;
     }
+
+    /*
+     * Tarea: Implementar todos los métodos de la clase Vector
+     * https://docs.oracle.com/javase/8/docs/api/java/util/Stack.html
+     * Realice ejemplos prácticos para validar su funcionamiento.
+     */
 }
