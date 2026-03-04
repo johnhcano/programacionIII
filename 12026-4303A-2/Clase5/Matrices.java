@@ -14,6 +14,16 @@ public class Matrices {
                     System.out.println("m[" + i + "][" + j + "]=" + m[i][j]);
                 }
             }
+
+            //Uso de la clase OperacionesConMatrices.java
+
+            OperacionesConMatrices opm = new OperacionesConMatrices();
+
+            int[][] matriz = opm.llenarMatriz(4, 4, 0, 9);
+
+            System.out.println(opm.mostrarMatriz(matriz));
+
+
         }   
 }
         
