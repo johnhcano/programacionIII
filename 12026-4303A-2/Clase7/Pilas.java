@@ -21,6 +21,9 @@ public class Pilas {
         System.out.println("Se eliminó: " + pila.pop()); //Juan
         //Mostrar el contenido de la pila
         System.out.println(pila); //[Sebastian, Alejandro, Natalia]
-
+        //Posiciones de los elementos dentro de la pila
+        System.out.println(pila.search("Sebastian")); //3
+        System.out.println(pila.search("Alejandro")); //2
+        System.out.println(pila.search("Natalia")); //1
     }    
 }
