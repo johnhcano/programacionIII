@@ -13,6 +13,14 @@ public class Pilas {
         pila.push("Juan");
         //Mostrar el contenido de la pila
         System.out.println(pila); //[Sebastian, Alejandro, Natalia, Juan]
+        //Mostrar el tope de la pila sin removerlo
+        System.out.println(pila.peek()); // Juan
+        //Mostrar el contenido de la pila
+        System.out.println(pila); //[Sebastian, Alejandro, Natalia, Juan]
+        //Eliminar el elemento que se encuentra en el tope de la pila
+        System.out.println("Se eliminó: " + pila.pop()); //Juan
+        //Mostrar el contenido de la pila
+        System.out.println(pila); //[Sebastian, Alejandro, Natalia]
 
     }    
 }
