@@ -30,5 +30,11 @@ public class Colas {
         //Mostrar la cola
         System.out.println(cola); //[5, 15]
 
+        //Tamaño de la cola
+        System.out.println("Tamaño de la cola: " + cola.size()); //2
+
+        //Verificar si está vacía la cola
+        System.out.println(cola.isEmpty()); //false
+
     }
 }
