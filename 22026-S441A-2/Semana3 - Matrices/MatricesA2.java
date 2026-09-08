@@ -13,6 +13,18 @@ public class MatricesA2 {
             }
         }
 
+        //Visualizar de mejor manera la matriz
+        String cad = "";
+        for (int i = 0; i < m.length; i++) { //m.length -> siempre será para recorrer las filas
+            for (int j = 0; j < m[0].length; j++) {   //m[0].length -> siempre será para recorrer las columnas
+                cad += "|"+m[i][j];        
+            }
+            cad+="| \n";
+        }
+
+        System.out.println(cad);
+
+
 
     }
 }
